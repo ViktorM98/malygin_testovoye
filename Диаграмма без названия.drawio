@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1390" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,11 +21,11 @@
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="450" as="targetPoint" />
+            <mxPoint x="410" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="335" y="450" />
+              <mxPoint x="505" y="570" />
             </Array>
-            <mxPoint x="410" y="450" as="sourcePoint" />
+            <mxPoint x="580" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="socket.connect(ADDR)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
@@ -88,6 +88,9 @@
             </Array>
             <mxPoint x="269.5" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SfspmV3KzTrGjZr8H1k5-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;json_request:&lt;br&gt;{&quot;type&quot;: &quot;get_music_data&quot;, &quot;count&quot;: 6}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;fillColor=#fff2cc;strokeColor=#d6b656;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="275" y="340" width="175" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
